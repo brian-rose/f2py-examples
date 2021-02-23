@@ -29,7 +29,7 @@ jobs:
     - run: pytest
 
   macos:
-    if: false  # f2py doesn't use FC it seems
+    # if: false  # f2py doesn't use FC it seems
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
