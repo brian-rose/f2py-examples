@@ -44,7 +44,6 @@ jobs:
 
     - run: pytest
 
-
   windows:
     runs-on: windows-latest
     steps:
